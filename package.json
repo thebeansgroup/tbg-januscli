@@ -1,0 +1,33 @@
+{
+  "name": "tbg-januscli",
+  "version": "0.0.0",
+  "description": "TBG Toolbelt built upon of januscli",
+  "main": "es5/index.js",
+  "bin": {
+    "janus": "bin/index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "babel --watch --presets es2015 lib -d es5",
+    "prepublish": "babel --presets es2015 lib -d es5"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thebeansgroup/tbg-januscli.git"
+  },
+  "author": "Ad Taylor",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thebeansgroup/tbg-januscli/issues"
+  },
+  "homepage": "https://github.com/thebeansgroup/tbg-januscli#readme",
+  "dependencies": {
+    "januscli": "^1.0.0",
+    "januscli-release": "^0.2.3",
+    "januscli-tasks": "0.0.2"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.5.1",
+    "babel-preset-es2015": "^6.5.0"
+  }
+}
