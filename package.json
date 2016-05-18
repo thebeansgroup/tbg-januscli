@@ -23,7 +23,7 @@
   "homepage": "https://github.com/thebeansgroup/tbg-januscli#readme",
   "dependencies": {
     "januscli": "^1.0.0",
-    "januscli-release": "^0.2.3",
+    "januscli-release": "^0.2.4",
     "januscli-tasks": "0.0.2"
   },
   "devDependencies": {
