@@ -1,6 +1,6 @@
 {
   "name": "tbg-januscli",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "TBG Toolbelt built upon of januscli",
   "main": "es5/index.js",
   "bin": {
