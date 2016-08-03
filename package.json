@@ -1,6 +1,6 @@
 {
   "name": "tbg-januscli",
-  "version": "0.0.2",
+  "version": "1.0.0",
   "description": "TBG Toolbelt built upon of januscli",
   "main": "es5/index.js",
   "bin": {
@@ -22,8 +22,8 @@
   },
   "homepage": "https://github.com/thebeansgroup/tbg-januscli#readme",
   "dependencies": {
-    "januscli": "^1.0.0",
-    "januscli-release": "^0.2.4",
+    "januscli": "^2.0.0",
+    "januscli-release": "^1.0.0",
     "januscli-tasks": "0.0.2"
   },
   "devDependencies": {
